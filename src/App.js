@@ -2,6 +2,8 @@ import './App.css';
 import {BrowserRouter,Routes,Route} from 'react-router-dom';
 import Home from './pages/Home';
 import EditorPage from './pages/EditorPage';
+import React from 'react'
+import ReactDOM from 'react-dom'
 
 function App() {
   return (

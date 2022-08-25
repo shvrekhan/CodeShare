@@ -6,7 +6,7 @@
   color: white;
 }
 .formWrapper{
-  background: #1e2c41;
+  background: #7c8c8c;
   padding: 20px;
   border-radius: 10px;
   width: 400px;
@@ -18,7 +18,6 @@
 }
 .homeFormImage{
   height: 80px;
-  margin-bottom: 30px;
 }
 .mainLabel{
   margin-bottom: 20px;
