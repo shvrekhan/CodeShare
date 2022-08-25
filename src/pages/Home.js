@@ -1,5 +1,8 @@
 import React ,{useState} from 'react'
 import { v4 as uuidv4 } from 'uuid';
+import toast from 'react-hot-toast';
+
+
 export const Home = () => {
   const [roomId , setRoomId] = useState('');
   const [username , setUserName] = useState('');
@@ -7,6 +10,7 @@ export const Home = () => {
       e.preventDefault();
       const id = uuidv4();
       setRoomId(id);
+      toast.success('created a new room');
       console.log(id);
 
   }
